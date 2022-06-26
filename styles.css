@@ -1,0 +1,125 @@
+*
+{
+    font-family: 'Work Sans', sans-serif;
+}
+
+h5{
+    color: #61585a !important;
+}
+
+h5.heavy{
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.p-detail{
+    margin-bottom: 0;
+}
+
+p.light{
+    font-size: 0.8em;
+    color: #9a9e86;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+section{
+    color: #587081;
+}
+
+section > div
+{
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    margin: 2rem 5% 0 5%;
+    padding: 1rem;
+    box-shadow: 0 20px 20px 1px rgba(114, 148, 157, 0.2);
+}
+
+#link-bar
+{
+    display: grid;
+    grid-template-columns: 50px 50px 50px auto;
+    grid-template-rows: 42px 24px 24px;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+#link-bar > p{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    text-align: right;
+}
+
+#link-bar > a{
+    grid-row-start: 3;
+    grid-column-start: 4;
+    text-align: right;
+    text-decoration: none;
+}
+
+/* About */
+
+#about > p{
+    margin-bottom: 0;
+}
+
+/* Projects */
+
+#projects{
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-template-rows: auto auto auto;
+}
+
+.project{
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-template-rows: auto;
+}
+
+#projects-header{
+    grid-column: span 4;
+}
+
+.project-nukleo{
+    margin-bottom: 1rem;
+}
+
+.project-icon-link{
+    
+}
+
+.project-details{
+    margin-left: 7px;
+}
+
+/* experience */
+
+#experiences{
+    display: grid;
+    grid-template-columns: auto 50px;
+    grid-template-rows: auto auto auto;
+}
+
+.experience{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: auto 50px;
+    grid-template-rows: auto;
+}
+
+.experience-efa{
+    margin-bottom: 1rem;
+}
+
+#experiences-header{
+    grid-column: span 2;
+}
+
+/* education */
+
+#education{
+    
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="\assets\face.png" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hobbies</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+
+        <!-- Link-bar -->
+
+        <div id="link-bar" class="content">
+            <img src="\assets\github.png" height="40">
+            <img src="\assets\linkedin.png" height="40">
+            <img src="\assets\resume.png" height="40">
+            <h5>Trevor R. Stuart</h5>
+            <p>
+                Indianapolis, IN
+            </p>
+            <a href="mailto:stuart.trev@gmail.com">
+                <p style="font-size: 0.8em;">stuart.trev@gmail.com</p>
+            </a>
+        </div>
+
+        <!-- About -->
+
+        <div id="about" class="content">
+            <p>Software developer searching for an opportunity to join a dynamic development team that is dedicated to
+                building
+                solutions to real world problems. Passionate about problem solving, learning, and helping others
+                succeed.</p>
+        </div>
+
+        <!-- Projects -->
+
+        <div id="projects" class="content">
+
+            <h5 id="projects-header" style="text-align: right;">Projects</h5>
+            <div class="project project-nukleo">
+                <a href="" class="project-icon-link">
+                    <img src="/assets/nukleo.png" alt="" height="80">
+                </a>
+                <div class="project-details">
+                    <h5 class="heavy">Nukleo</h5>
+                    <p class="light">C# | .NET Core WebAPI</p>
+                    <p class="p-detail">.NET Web API backend with a react frontend.</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <a href="" class="project-icon-link">
+                    <img src="/assets/pokeXamarin.png" alt="" height="80">
+                </a>
+                <div class="project-details">
+                    <h5 class="heavy">PokedeXamarin</h5>
+                    <p class="light">C# | Xamarin</p>
+                    <p class="p-detail">.NET Web API backend with a react frontend.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Experience -->
+
+        <div id="experiences" class="content">
+
+            <h5 id="experiences-header" style="text-align: right;">Work History</h5>
+
+            <div class="experience experience-efa">
+                <div class="experience-details">
+                    <h5 class="heavy">Software Development Instructor</h5>
+                    <p class="p-detail">Eleven Fifty Academy, Inc</p>
+                    <p class="p-detail">Indianapolis, IN</p>
+                    <p class="light">2020 - present</p>
+                </div>
+                <img src="/assets/efa.png" alt="" height="50">
+            </div>
+
+            <div class="experience">
+                <div class="experience-details">
+                    <h5 class="heavy">Seed Lab Manager</h5>
+                    <p class="p-detail">Beck's Hybrids, Inc</p>
+                    <p class="p-detail">Atlanta, IN</p>
+                    <p class="light">2012 - 2019</p>
+                </div>
+                <img src="/assets/becks.png" alt="" height="50" style="text-align: right;">
+            </div>
+
+        </div>
+
+        <!-- Education -->
+
+        <div id="educations" class="content">
+
+            <h5 id="educations-header" style="text-align: right;">Education</h5>
+
+        </div>
+
+        <!-- Hobbies -->
+
+        <div id="hobbies" class="content">
+            <img src="\assets\face.png" height="40">
+        </div>
+
+        <!-- Contact -->
+
+        <div id="contact" class="content">
+            <img src="\assets\face.png" height="40">
+        </div>
+
+    </section>
+
+</body>
+
+</html>
