@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav id="top" class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/face.png" alt="face" height="40">
@@ -33,12 +33,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#experiences">Experience</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educations">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
@@ -50,7 +56,7 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Hobbies</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
                 <!-- <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -65,15 +71,21 @@
         <!-- Link-bar -->
 
         <div id="link-bar" class="content">
-            <img src="assets/github.png" alt="GitHub" height="40">
-            <img src="assets/linkedin.png" alt="LinkedIn" height="40">
-            <img src="assets\resume.png" alt="Resume" height="40">
+            <a target="_blank" href="https://github.com/tstuart87">
+                <img src="assets/github.png" alt="GitHub" height="40">
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/trevstu/">
+                <img src="assets/linkedin.png" alt="LinkedIn" height="40">
+            </a>
+            <a target="_blank" href="assets/TrevorStuart_Resume.pdf">
+                <img src="assets\resume.png" alt="Resume" height="40">
+            </a>
             <h5>Trevor R. Stuart</h5>
             <p>
                 Indianapolis, IN
             </p>
-            <a href="mailto:stuart.trev@gmail.com">
-                <p style="font-size: 0.8em;">stuart.trev@gmail.com</p>
+            <a id="email" href="mailto:stuart.trev@gmail.com">
+                <p id="email" style="font-size: 0.8em;">stuart.trev@gmail.com</p>
             </a>
         </div>
 
@@ -92,7 +104,7 @@
 
             <h5 id="projects-header" style="text-align: right;">Projects</h5>
             <div class="project project-nukleo">
-                <a href="" class="project-icon-link">
+                <a target="_blank" href="https://github.com/tstuart87/Nukleo" class="project-icon-link">
                     <img src="assets/nukleo.png" alt="nukleo" height="80">
                 </a>
                 <div class="project-details">
@@ -103,7 +115,7 @@
             </div>
 
             <div class="project">
-                <a href="" class="project-icon-link">
+                <a target="_blank" href="https://github.com/tstuart87/PokedeXamarin" class="project-icon-link">
                     <img src="assets/pokeXamarin.png" alt="PokedeXamarin" height="80">
                 </a>
                 <div class="project-details">
@@ -184,23 +196,25 @@
             <h5 id="hobbies-header" style="text-align: right;">Where I spend time online.</h5>
 
             <div class="hobbies-flex">
-                <a href="" class="hobby-icon-link">
-                    <img src="assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                <a target="_blank" href="https://www.reddit.com/" class="hobby-icon-link">
+                    <img src="assets/hobbies/reddit.png" alt="" height="80" class="hobby-img">
                 </a>
-                <a href="" class="hobby-icon-link">
-                    <img src="assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                <a target="_blank" href="https://discord.com/" class="hobby-icon-link">
+                    <img src="assets/hobbies/discord.jpg" alt="" height="80" class="hobby-img">
                 </a>
-                <a href="" class="hobby-icon-link">
-                    <img src="assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                <a target="_blank"
+                    href="https://www.disneyplus.com/welcome/disney-hulu-espn-bundle?cid=DSS-Search-Google-71700000059616273-&s_kwcid=AL!8468!3!581536710363!b!!g!!hulu%20disney%20espn&gclid=EAIaIQobChMI3tb-l-bO-AIVGm1vBB0w3AY5EAAYASABEgIRKPD_BwE&gclsrc=aw.ds"
+                    class="hobby-icon-link">
+                    <img src="assets/hobbies/huluDisneyEspn.png" alt="" height="80" class="hobby-img">
                 </a>
-                <a href="" class="hobby-icon-link">
-                    <img src="assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                <a target="_blank" href="https://www.mlb.com/video/search" class="hobby-icon-link">
+                    <img src="assets/hobbies/mlb.png" alt="" height="80" class="hobby-img">
                 </a>
-                <a href="" class="hobby-icon-link">
-                    <img src="assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                <a target="_blank" href="https://www.pgatour.com/leaderboard.html" class="hobby-icon-link">
+                    <img src="assets/hobbies/pga.png" alt="" height="80" class="hobby-img">
                 </a>
-                <a href="" class="hobby-icon-link">
-                    <img src="assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                <a target="_blank" href="https://www.spotify.com/us/" class="hobby-icon-link">
+                    <img src="assets/hobbies/spotify.jpg" alt="" height="80" class="hobby-img">
                 </a>
             </div>
         </div>
@@ -226,16 +240,16 @@
             <div style="margin: 5rem 2rem 0 2rem;">
                 <div class="footer">
                     <div style="max-width: 30%;">
-                        <a href="" class="footer-link">
-                            <p class="p-footer no-margin-bottom">hello</p>
+                        <a href="https://github.com/tstuart87" class="footer-link">
+                            <p class="p-footer no-margin-bottom">GitHub</p>
                         </a>
-                        <a href="" class="footer-link">
-                            <p class="p-footer no-margin-bottom">hello</p>
+                        <a href="https://www.linkedin.com/in/trevstu/" class="footer-link">
+                            <p class="p-footer no-margin-bottom">LinkedIn</p>
                         </a>
-                        <a href="" class="footer-link">
-                            <p class="p-footer no-margin-bottom">hello</p>
+                        <a href="assets/TrevorStuart_Resume.pdf" class="footer-link">
+                            <p class="p-footer no-margin-bottom">Résumé</p>
                         </a>
-                        <p id="copyright" class="no-margin-bottom">site by Trevor R. Stuart</p>
+                        <p id="copyright" class="no-margin-bottom">Trevor R. Stuart</p>
                         <p id="copyright" class="no-margin-bottom">&#169 2022</p>
                     </div>
                     <a href="#top">
