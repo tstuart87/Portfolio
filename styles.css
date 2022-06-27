@@ -32,6 +32,7 @@ section > div
     border: 1px solid #ced4da;
     border-radius: 0.375rem;
     margin: 2rem 5% 0 5%;
+    max-width: 900px;
     padding: 1rem;
     box-shadow: 0 20px 20px 1px rgba(114, 148, 157, 0.2);
 }
@@ -220,4 +221,8 @@ a.footer-link{
     border-radius: 0.275rem;
     padding: 6px 19px 6px 18px;
     vertical-align: middle;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0;
 }
