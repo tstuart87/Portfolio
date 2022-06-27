@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="\assets\face.png" height="40">
+                <img src="/assets/face.png" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -52,10 +52,10 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <!-- <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
         </div>
     </nav>
@@ -65,7 +65,7 @@
         <!-- Link-bar -->
 
         <div id="link-bar" class="content">
-            <img src="\assets\github.png" height="40">
+            <img src="/assets/github.png" height="40">
             <img src="\assets\linkedin.png" height="40">
             <img src="\assets\resume.png" height="40">
             <h5>Trevor R. Stuart</h5>
@@ -149,19 +149,99 @@
 
             <h5 id="educations-header" style="text-align: right;">Education</h5>
 
+            <div class="education education-efa">
+                <div class="education-details">
+                    <h5 class="heavy">Eleven Fifty Academy</h5>
+                    <p class="p-detail">Software Development Bootcamp</p>
+                    <p class="light">2019</p>
+                </div>
+                <img src="/assets/efa.png" alt="" height="50">
+            </div>
+
+            <!-- <div class="education education-efa">
+                <div class="education-details">
+                    <h5 class="heavy">Western Governor's University</h5>
+                    <p class="p-detail">Courses taken:</p>
+                    <p class="p-detail">Data Structure & Algorithms, </p>
+                </div>
+                <img src="/assets/efa.png" alt="" height="50">
+            </div> -->
+
+            <div class="education">
+                <div class="education-details">
+                    <h5 class="heavy">Franklin College</h5>
+                    <p class="p-detail">B.A History</p>
+                    <p class="light">2010</p>
+                </div>
+                <img src="/assets/franklin.png" alt="" height="50" style="text-align: right;">
+            </div>
+
         </div>
 
         <!-- Hobbies -->
 
         <div id="hobbies" class="content">
-            <img src="\assets\face.png" height="40">
+            <h5 id="hobbies-header" style="text-align: right;">Where I spend time online.</h5>
+
+            <div class="hobbies-flex">
+                <a href="" class="hobby-icon-link">
+                    <img src="/assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                </a>
+                <a href="" class="hobby-icon-link">
+                    <img src="/assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                </a>
+                <a href="" class="hobby-icon-link">
+                    <img src="/assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                </a>
+                <a href="" class="hobby-icon-link">
+                    <img src="/assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                </a>
+                <a href="" class="hobby-icon-link">
+                    <img src="/assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                </a>
+                <a href="" class="hobby-icon-link">
+                    <img src="/assets/pokeXamarin.png" alt="" height="80" class="hobby-img">
+                </a>
+            </div>
         </div>
 
         <!-- Contact -->
 
         <div id="contact" class="content">
-            <img src="\assets\face.png" height="40">
+            <form class="contact-form" action="https://formspree.io/stuart.trev@gmail.com" method="POST">
+                <input type="text" id="yourName" name="name" placeholder="Your Name." class="contact-bubble">
+                <br>
+                <input type="email" id="yourEmail" name="_replyto" placeholder="Your Email." class="contact-bubble">
+                <br>
+                <textarea id="message" name="subject" placeholder="Your Message...." class="contact-bubble"></textarea>
+                <br>
+                <input type="submit" class="contact-submit-button" value="Send">
+            </form>
         </div>
+
+        <!-- footer -->
+
+        <footer>
+            <div class="footer">
+                <div style="max-width: 30%;">
+                    <a href="" class="footer-link">
+                        <p class="p-footer">hello</p>
+                    </a>
+                    <a href="" class="footer-link">
+                        <p class="p-footer">hello</p>
+                    </a>
+                    <a href="" class="footer-link">
+                        <p class="p-footer">hello</p>
+                    </a>
+                    <p id="copyright">site by Trevor R. Stuart &#169 2022</p>
+                    <p id="copyright">&#169 2022</p>
+                </div>
+                <a href="#top">
+                    <input type="submit" id="back-to-top" value="Top">
+                </a>
+                <img src="/assets/faceflipped.png" alt="" style="width: 30%;">
+            </div>
+        </footer>
 
     </section>
 
